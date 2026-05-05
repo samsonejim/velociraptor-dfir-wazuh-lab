@@ -185,5 +185,9 @@ velociraptor-dfir-wazuh-lab/
 
 ---
 
-*Author: Samson Ejim | Cybersecurity Enthusiast*  
-*github.com/samsonejim | linkedin.com/in/samsonejim*
+## 👤 Author
+
+**Samson Ejim** | Cybersecurity Enthusiast
+
+[![GitHub](https://img.shields.io/badge/GitHub-samsonejim-181717?style=for-the-badge&logo=github)](https://github.com/samsonejim)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-samsonejim-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/samsonejim)
