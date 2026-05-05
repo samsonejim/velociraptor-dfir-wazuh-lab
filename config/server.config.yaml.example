@@ -1,0 +1,16 @@
+# Velociraptor Server Config Example
+# Replace all placeholder values with your actual values
+# DO NOT commit your real config with actual credentials or certificates
+
+Frontend:
+  hostname: 10.128.0.4        # Internal IP of wazuh-server
+  bind_address: 0.0.0.0
+  bind_port: 8000
+
+GUI:
+  bind_address: 0.0.0.0
+  bind_port: 8889
+
+# Note: Real config contains TLS certificates and keys
+# Generated with: sudo velociraptor config generate > /tmp/server.config.yaml
+# Then edited to replace localhost with internal GCP IP (10.128.0.4)
