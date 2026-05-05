@@ -118,15 +118,29 @@ ORDER BY Mtime DESC
 
 ## 📸 Screenshots
 
-| Screenshot | Description |
-|---|---|
-| `screenshots/01-velociraptor-dashboard.png` | Velociraptor dashboard after login |
-| `screenshots/02-ubuntu-endpoint-online.png` | ubuntu-endpoint showing Online status |
-| `screenshots/03-first-vql-query.png` | First VQL pslist() query results |
-| `screenshots/04-hunt-manager.png` | Hunt Manager with Process Investigation hunt |
-| `screenshots/05-hunt-results.png` | Hunt results showing 118 processes with hashes |
-| `screenshots/06-netstat-results.png` | Network connections from ubuntu-endpoint |
+### Velociraptor Dashboard
+![Velociraptor Dashboard](screenshots/01-velociraptor-dashboard.png)
 
+### ubuntu-endpoint Online
+![ubuntu-endpoint Online](screenshots/02-ubuntu-endpoint-online.png)
+
+### First VQL Query Results
+![First VQL Query](screenshots/03-first-vql-query.png)
+
+### Hunt Manager
+![Hunt Manager](screenshots/04-hunt-manager.png)
+
+### Hunt Results — 118 Processes with Hashes
+![Hunt Results](screenshots/05-hunt-results.png)
+
+### Network Connections — netstat
+![Netstat Results](screenshots/06-netstat-results.png)
+
+---
+
+## 📄 Documentation
+
+📥 [Download Full Lab Guide (PDF)](docs/Velociraptor_DFIR_Wazuh_GCP_Guide_v2.pdf)
 ---
 
 ## 📁 Repository Structure
