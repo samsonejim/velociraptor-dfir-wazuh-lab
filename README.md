@@ -20,6 +20,7 @@ This project deploys **Velociraptor** as a Digital Forensics and Incident Respon
 
 ## 🏗️ Architecture
 
+```
 ┌─────────────────────────────────────────────┐
 │           GCP — us-central1                 │
 │                                             │
@@ -33,6 +34,7 @@ This project deploys **Velociraptor** as a Digital Forensics and Incident Respon
 │  │ • Dashboard :8889│  │   Client        │  │
 │  └──────────────────┘  └─────────────────┘  │
 └─────────────────────────────────────────────┘
+```
 
 ---
 
@@ -129,6 +131,7 @@ ORDER BY Mtime DESC
 
 ## 📁 Repository Structure
 
+```
 velociraptor-dfir-wazuh-lab/
 ├── README.md
 ├── screenshots/
@@ -142,7 +145,8 @@ velociraptor-dfir-wazuh-lab/
 │   ├── server.config.yaml.example
 │   └── client.config.yaml.example
 └── docs/
-└── Velociraptor_DFIR_Wazuh_GCP_Guide_v2.pdf
+    └── Velociraptor_DFIR_Wazuh_GCP_Guide_v2.pdf
+```
 
 ---
 
