@@ -1,0 +1,13 @@
+# Velociraptor Client Config Example
+# Replace all placeholder values with your actual values
+# DO NOT commit your real config with actual certificates
+
+Client:
+  server_urls:
+    - https://10.128.0.4:8000/   # Internal IP of wazuh-server — never changes on GCP
+
+# Note: Real config contains TLS certificates matching the server
+# Generated on wazuh-server with:
+# sudo -u velociraptor velociraptor --config /etc/velociraptor/server.config.yaml config client > /tmp/client.config.yaml
+# Then edited to replace localhost with 10.128.0.4
+# Copied to ubuntu-endpoint manually via nano (SCP fails on GCP due to SSH key auth)
